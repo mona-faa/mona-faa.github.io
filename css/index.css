@@ -1,3 +1,125 @@
-h1{
-    color: brown;
+.hover-border:hover{
+    border-radius: 4px;
+    background-color: #dddada;
 }
+.nav1{
+    position: relative;
+z-index: 1;
+}
+.child{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.test:hover .child{
+  display: block;
+}
+.child1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.test1:hover .child1{
+ display: block;
+}
+.child2{
+  display: none;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.test2:hover .child2{
+  display: block;
+}
+.child3{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.test3:hover .child3{
+  display: block;
+}
+.child4{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    z-index: 5;
+}
+.test4:hover .child4{
+   display: block;
+}
+.img1{
+width: 100px;
+}
+.img2,.img3,.img4,.img5,.img6,.img7{
+width: 250px; margin: 0;padding: 0;
+}
+.space { margin-right: 100px;}
+.submenu1{ position: relative; left: 1100px; bottom: 350px; color: black;
+ }
+
+.submenu1 a {color: #222; text-decoration: none;
+}
+.submenu1 a:hover {text-decoration: underline;
+}
+.img9,.img8,.img10,.img11{width: 200px; }
+.boximg{
+    height: 500px;object-fit: cover;
+}
+.text{bottom: 150px;}
+.fonts{font-size: 50px;}
+@media all and (min-width:0px) and (max-width:599px){
+    .scrol{
+     width: 430px; object-fit:cover;}
+.box12{margin-left: -50px;
+margin-bottom: -30px;}
+.box11{ margin-bottom: -30px; margin-left: -50px;}
+}
+@media all and (min-width:600px) and (max-width:1199px){
+        .scrol{
+    width: 550px;height: auto; object-fit:cover; 
+}
+}
+@media all and (min-width:1200px) and (max-width:1325px){
+        .scrol{ width: 580px; object-fit:cover;
+height: auto;
+}
+
+}
+@media all and (min-width:1326px) {
+        .scrol{
+    height:580px; width: 1024px; object-fit:cover; 
+}
+.box11{margin-bottom: -60px;margin-left: 40px;}
+.box12{margin-left: 70px;}
+}
+.typee{
+left: 200px;
+bottom: 50px;
+}
+.imgcard1,.imgcard2{height: 200px; object-fit: cover;}
+.sizeh{font-size: 30px;}
+@media all and (min-width:1200px) {.imgcard1,.imgcard2{width: 300px;}}
