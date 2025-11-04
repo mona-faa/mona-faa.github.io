@@ -1,4 +1,4 @@
-//جستجو
+
 let searchIcon = document.getElementById("search-icon");
 let searchBox = document.getElementById("search-box");
 let closeBtn = document.getElementById("close-btn");
