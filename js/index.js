@@ -61,7 +61,7 @@ let prev = document.querySelector(".left-m");
 let indexm = 0;
 
 let totalI = slidesm.length;
- next.style.display = "none";
+next.style.display = "none";
 next.addEventListener("click", function () {
   indexm += 2;
   if (indexm >= totalI) {
